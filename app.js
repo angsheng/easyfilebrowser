@@ -61,7 +61,7 @@ app.get(/\//i,(req,res)=>{
 					res.render('404page',{err})
 				}else{
 					var fileList = [];
-					var pwd_for_visitor = (reqPath=='/')?'./':reqPath+'/';
+					var pwd_for_visitor = (reqPath=='/')?'/':reqPath+'/';
 					files.forEach(function(file){
 						var this_file = fs.statSync(filePath+'/'+file);
 						this_file.isDirectory()?fileList.push({name:file,type:2,time:this_file.birthtime}):fileList.push({name:file,type:1,time:this_file.birthtime})

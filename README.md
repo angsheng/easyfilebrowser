@@ -1,5 +1,4 @@
-# easy file browser
-simple file browser on Node Express.download and upload files features.
+# Easy file browser
 
 This is a very simple file browser running in  Web browser .
 

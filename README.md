@@ -2,6 +2,6 @@
 
 This is a very simple file browser running in  Web browser .
 
-with view files ,upload and dowload functions.
+with view,upload and download files functions.
 
 running need Nodejs and Express.
